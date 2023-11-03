@@ -42,6 +42,8 @@
     <link href="../assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
     <link href="../assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
     <link href="../assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr@2.1.4/dist/toastr.min.css">
+
     <script>
         var phoenixIsRTL = window.config.config.phoenixIsRTL;
         if (phoenixIsRTL) {
@@ -80,7 +82,7 @@
                     <li class="nav-item">
                         <!-- parent pages-->
                         <div class="nav-item-wrapper"><a
-                                class="nav-link @if(Request::is('admin')) active @endif label-1" href="/admin"
+                                class="nav-link @if(Request::is('/admin/home')) active @endif label-1" href="/admin/home"
                                 role="button" data-bs-toggle="" aria-expanded="false">
                                 <div class="d-flex align-items-center"><span class="nav-link-icon"><span
                                             data-feather="pie-chart"></span></span><span
@@ -2358,7 +2360,7 @@
         <div class="navbar-vertical-footer">
             <button class="btn navbar-vertical-toggle border-0 fw-semi-bold w-100 white-space-nowrap d-flex align-items-center">
                 <span class="uil uil-left-arrow-to-left fs-0"></span><span class="uil uil-arrow-from-right fs-0"></span><span
-                    class="navbar-vertical-footer-text ms-2">Collapsed View</span></button>
+                    class="navbar-vertical-footer-text ms-2">Minimizar</span></button>
         </div>
     </nav>
     <nav class="navbar navbar-top fixed-top navbar-expand" id="navbarDefault">
@@ -2369,7 +2371,7 @@
                         data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse"
                         aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
-                <a class="navbar-brand me-1 me-sm-3" href="/admin">
+                <a class="navbar-brand me-1 me-sm-3" href="/admin/home">
                     <div class="d-flex align-items-center">
                         <div class="d-flex align-items-center"><img
                                 src="{{ asset('assets/img/logosuperchambitas0.png') }}" alt="SC" width="27"/>
@@ -2565,10 +2567,10 @@
                                data-theme-control="phoenixTheme" value="dark" id="themeControlToggle"/>
                         <label class="mb-0 theme-control-toggle-label theme-control-toggle-light"
                                for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left"
-                               title="Switch theme"><span class="icon" data-feather="moon"></span></label>
+                               title="Cambiar tema"><span class="icon" data-feather="moon"></span></label>
                         <label class="mb-0 theme-control-toggle-label theme-control-toggle-dark"
                                for="themeControlToggle" data-bs-toggle="tooltip" data-bs-placement="left"
-                               title="Switch theme"><span class="icon" data-feather="sun"></span></label>
+                               title="Cambiar tema"><span class="icon" data-feather="sun"></span></label>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -3167,10 +3169,10 @@
         <footer class="footer position-absolute">
             <div class="row g-0 justify-content-between align-items-center h-100">
                 <div class="col-12 col-sm-auto text-center">
-                    <p class="mb-0 mt-2 mt-sm-0 text-900">Thank you for creating with Phoenix<span
+                    <p class="mb-0 mt-2 mt-sm-0 text-900">Creado por TalentoLink<span
                             class="d-none d-sm-inline-block"></span><span
-                            class="d-none d-sm-inline-block mx-1">|</span><br class="d-sm-none"/>2023 &copy;<a
-                            class="mx-1" href="https://themewagon.com">Themewagon</a></p>
+                            class="d-none d-sm-inline-block mx-1">|</span><br class="d-sm-none"/><?php echo date('Y'); ?> &copy;<a
+                            class="mx-1" href="#">TalentoLink</a></p>
                 </div>
                 <div class="col-12 col-sm-auto text-center">
                     <p class="mb-0 text-600">v1.13.0</p>
@@ -3477,6 +3479,9 @@
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/toastr@2.1.4/dist/toastr.min.js"></script>
+
 <script src="../vendors/popper/popper.min.js"></script>
 <script src="../vendors/bootstrap/bootstrap.min.js"></script>
 <script src="../vendors/anchorjs/anchor.min.js"></script>

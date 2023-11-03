@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -24,11 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if (Auth::check()) {
-            return view('admin.home'); // Redirige a la página del panel de control si el usuario está autenticado.
-        }
-
-        // Opcionalmente, puedes mostrar un mensaje de error o redirigir a otra página si el usuario no está autenticado.
-        return redirect('/login');
+        return view('admin/home');
     }
 }

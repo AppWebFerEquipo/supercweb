@@ -11,4 +11,6 @@ class Categories extends Model
 
     protected $table = 'adm_categories';
 
+
+
 }

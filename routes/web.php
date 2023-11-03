@@ -20,7 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/admin/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-    Route::get('/admin/categories', 'App\Http\Controllers\Categories\CategoriesController@index');
+    Route::get('/admin/home', 'App\Http\Controllers\HomeController@index')->name('home');
+
+    Route::get('/admin/categories', 'App\Http\Controllers\Categories\CategoriesController@index')->name('categories_index');
+    Route::post('/admin/categories/category_store', [App\Http\Controllers\Categories\CategoriesController::class, 'category_store'])->name('category_store');
+
 });
 
