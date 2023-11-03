@@ -28,8 +28,8 @@
                     <button class="btn btn-link text-900 me-4 px-0"><span
                             class="fa-solid fa-file-export fs--1 me-2"></span>Exportar
                     </button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop"><span class="fas fa-plus me-2"></span>Agregar Categoria
+                    <button class="btn btn-outline-primary me-1 mb-1" type="button" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"><span class="fas fa-plus-circle me-2"></span>Agregar Categoria
                     </button>
                 </div>
             </div>
@@ -38,45 +38,55 @@
             <div class="table-responsive scrollbar ms-n1 ps-1">
                 <table class="table table-sm fs--1 mb-0">
                     <thead>
-                    <tr>
-                        <th class="sort align-middle" scope="col" data-sort="customer"
-                            style="width:15%; min-width:200px;">ID Categoria
-                        </th>
-                        <th class="sort align-middle" scope="col" data-sort="email" style="width:15%; min-width:200px;">
-                            Categoria
-                        </th>
-                        <th class="sort align-middle pe-3" scope="col" data-sort="mobile_number"
-                            style="width:20%; min-width:200px;">Estatus
-                        </th>
+                        <tr>
+                            <th class="sort align-middle" scope="col" data-sort="customer"
+                                style="width:15%; min-width:200px;">ID Categoria
+                            </th>
+                            <th class="sort align-middle" scope="col" data-sort="email" style="width:15%; min-width:200px;">
+                                Categoria
+                            </th>
+                            <th class="sort align-middle pe-3" scope="col" data-sort="mobile_number"
+                                style="width:20%; min-width:200px;">Estatus
+                            </th>
+                            <th class="sort align-middle pe-3" scope="col" data-sort="mobile_number"
+                                style="width:20%; min-width:200px;">Acciones
+                            </th>
 
-                    </tr>
+                        </tr>
                     </thead>
                     <tbody class="list" id="members-table-body">
-                    @foreach($categories as $categorie)
-                        <tr class="hover-actions-trigger btn-reveal-trigger position-static">
-                            <td class="email align-middle white-space-nowrap"><a class="fw-semi-bold"
-                                                                                 href="mailto:annac34@gmail.com">{{ $categorie->category_id }}</a>
-                            </td>
+                        @foreach($categories as $categorie)
+                            <tr class="hover-actions-trigger btn-reveal-trigger position-static">
+                                <td class="email align-middle white-space-nowrap"><a class="fw-semi-bold"
+                                                                                     href="mailto:annac34@gmail.com">{{ $categorie->category_id }}</a>
+                                </td>
 
-                            <td class="customer align-middle white-space-nowrap"><a
-                                    class="d-flex align-items-center text-900 text-hover-1000" href="#!">
-                                    <div class="avatar avatar-m"><img class="rounded-circle"
-                                                                      src="../assets/img/logosuperchambitas0.png"
-                                                                      alt=""/>
-                                    </div>
-                                    <h6 class="mb-0 ms-3 fw-semi-bold">{{ $categorie->name }}</h6>
-                                </a></td>
-                            <td class="mobile_number align-middle white-space-nowrap">
-                                @if($categorie->i_active == 1)
-                                    <span class="far fa-check-circle"></span> Activo
-                                @else
-                                    <span class="far fa-times-circle"></span> Desactivado
+                                <td class="customer align-middle white-space-nowrap"><a
+                                        class="d-flex align-items-center text-900 text-hover-1000" href="#!">
+                                        <div class="avatar avatar-m"><img class="rounded-circle"
+                                                                          src="../assets/img/logosuperchambitas0.png"
+                                                                          alt=""/>
+                                        </div>
+                                        <h6 class="mb-0 ms-3 fw-semi-bold">{{ $categorie->name }}</h6>
+                                    </a></td>
+                                <td class="mobile_number align-middle white-space-nowrap">
+                                    @if($categorie->i_active == 1)
+                                        <span class="far fa-check-circle"></span> Activo
+                                    @else
+                                        <span class="far fa-times-circle"></span> Desactivado
 
-                                @endif
+                                    @endif
 
-                            </td>
-                        </tr>
-                    @endforeach
+                                </td>
+                                <td class="customer align-middle white-space-nowrap">
+                                    <button class="btn btn-outline-info me-1 mb-1 btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Ver detalles"><span class="fas fa-info-circle"></span></button>
+
+                                    <button class="btn btn-outline-warning me-1 mb-1 btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar"><span class="fas fa-edit"></span></button>
+                                    <button class="btn btn-outline-danger me-1 mb-1 btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Eliminar"><span class="fas fa-trash-alt"></span></button>
+
+                                </td>
+                            </tr>
+                        @endforeach
 
                     </tbody>
                 </table>
