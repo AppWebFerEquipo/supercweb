@@ -1535,6 +1535,31 @@
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Elementos del DOM
+        console.log("Script cargado");
+
+        const themeControlToggle = document.getElementById('themeControlToggle');
+        const body = document.body;
+
+        // Función para aplicar el tema
+        function applyTheme() {
+            if (themeControlToggle.checked) {
+                body.classList.add('dark-theme');
+            } else {
+                body.classList.remove('dark-theme');
+            }
+        }
+
+        // Manejar el cambio de tema cuando el interruptor cambie
+        themeControlToggle.addEventListener('change', applyTheme);
+
+        // Aplicar el tema inicialmente al cargar la página
+        applyTheme();
+    });
+</script>
+
 <script src="../../vendors/popper/popper.min.js"></script>
 <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
 <script src="../../vendors/anchorjs/anchor.min.js"></script>
