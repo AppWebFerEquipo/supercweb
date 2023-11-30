@@ -66,7 +66,7 @@
 <main class="main" id="top">
     <div class="row vh-100 g-0">
         <div class="col-lg-6 position-relative d-none d-lg-block">
-            <div class="bg-holder" style="background-image:url(../../../assets/img/bg/30.png);">
+            <div class="bg-holder" style="background-image:url(https://imgs.search.brave.com/wVfVKCTXx40gFI7J5zmtA47CPN8YS2liyFs3sSewYWE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lm1lZGlvdGllbXBv/LmNvbS91cGxvYWRz/L21lZGlhLzIwMjAv/MTIvMDUvbGFzLW1l/am9yZXMtaW1hZ2Vu/ZXMtZGUtbmF2aWRh/ZC0xMi5qcGc);">
             </div>
             <!--/.bg-holder-->
 

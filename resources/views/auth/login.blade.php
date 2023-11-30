@@ -66,7 +66,7 @@
 <main class="main" id="top">
     <div class="row vh-100 g-0">
         <div class="col-lg-6 position-relative d-none d-lg-block">
-            <div class="bg-holder" style="background-image:url(../../../assets/img/bg/30.png);">
+            <div class="bg-holder" style="background-image:url(https://imgs.search.brave.com/wVfVKCTXx40gFI7J5zmtA47CPN8YS2liyFs3sSewYWE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lm1lZGlvdGllbXBv/LmNvbS91cGxvYWRz/L21lZGlhLzIwMjAv/MTIvMDUvbGFzLW1l/am9yZXMtaW1hZ2Vu/ZXMtZGUtbmF2aWRh/ZC0xMi5qcGc);">
             </div>
             <!--/.bg-holder-->
 
@@ -98,7 +98,8 @@
                         <div class="mb-3 text-start">
                             <label class="form-label" for="password">Contraseña</label>
                             <div class="form-icon-container">
-                                <input class="form-control form-icon-input" id="password" name="password" type="password" placeholder="Password" /><span class="fas fa-key text-900 fs--1 form-icon"></span>
+                                <input class="form-control form-icon-input" id="password" name="password" type="password" placeholder="Password" />
+                                <span class="fas fa-key text-900 fs--1 form-icon toggle-password" onclick="togglePassword()"></span>
                             </div>
                         </div>
                         <div class="row flex-between-center mb-7">
@@ -299,6 +300,23 @@
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->
+<script>
+    function togglePassword() {
+        var passwordInput = document.getElementById('password');
+        var icon = document.querySelector('.toggle-password');
+
+        if (passwordInput.type === 'password') {
+            passwordInput.type = 'text';
+            icon.classList.remove('fa-key');
+            icon.classList.add('fa-eye');
+        } else {
+            passwordInput.type = 'password';
+            icon.classList.remove('fa-eye');
+            icon.classList.add('fa-key');
+        }
+    }
+</script>
+
 <script src="../../../vendors/popper/popper.min.js"></script>
 <script src="../../../vendors/bootstrap/bootstrap.min.js"></script>
 <script src="../../../vendors/anchorjs/anchor.min.js"></script>

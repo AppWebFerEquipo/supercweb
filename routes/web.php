@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ApiController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [WelcomeController::class, 'paginaweb'])->name('welcome');
+
+
+
 
 Auth::routes();
 
@@ -24,6 +29,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/admin/categories', 'App\Http\Controllers\Categories\CategoriesController@index')->name('categories_index');
     Route::post('/admin/categories/category_store', [App\Http\Controllers\Categories\CategoriesController::class, 'category_store'])->name('category_store');
+    Route::get('/admin/users', [App\Http\Controllers\Users\UsersController::class, 'index'])->name('users_index');
 
 });
 

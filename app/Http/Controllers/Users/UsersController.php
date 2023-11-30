@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Categories; // Namespace should match the folder structure
+namespace App\Http\Controllers\Users; // Namespace should match the folder structure
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Validator;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-class CategoriesController extends Controller
+class UsersController extends Controller
 {
     public function index()
     {
@@ -19,7 +19,7 @@ class CategoriesController extends Controller
             ]);
 
             // URL de la API en C#
-            $apiUrl = 'https://99c1-2806-10be-9-32a8-e1d3-b171-717b-2253.ngrok-free.app/api/categorias';
+            $apiUrl = 'https://99c1-2806-10be-9-32a8-e1d3-b171-717b-2253.ngrok-free.app/api/User/LsitadoUsers';
 
             // Realiza la solicitud a la API usando Guzzle
             $response = $client->get($apiUrl);
@@ -33,7 +33,7 @@ class CategoriesController extends Controller
             echo "Error en la solicitud: " . $e->getMessage();
         }
         // Devuelve la vista con los datos de la API
-        return view('admin.categories.index', compact('apiData'));
+        return view('admin.users.index', compact('apiData'));
     }
 
     public function category_store(Request $request)
@@ -57,7 +57,7 @@ class CategoriesController extends Controller
         ]);
 
         // URL de la API en C# para crear una categoría
-        $apiUrl = 'https://99c1-2806-10be-9-32a8-e1d3-b171-717b-2253.ngrok-free.app/api/categorias';
+        $apiUrl = 'https://4e14-2806-10be-9-32a8-d088-7513-d5ee-a114.ngrok-free.app/api/categorias';
 
         try {
             // Realiza la solicitud POST a la API usando Guzzle

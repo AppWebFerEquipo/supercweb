@@ -74,7 +74,7 @@
 <main class="alternate-landing" style="--phoenix-scroll-margin-top: 1.2rem;">
     <div class="bg-white sticky-top landing-navbar" data-navbar-shadow-on-scroll="data-navbar-shadow-on-scroll">
         <nav class="navbar navbar-expand-lg container-small px-3 px-lg-7 px-xxl-3"><a
-                class="navbar-brand flex-1 flex-lg-grow-0" href="../../index.html">
+                class="navbar-brand flex-1 flex-lg-grow-0" href="/">
                 <div class="d-flex align-items-center"><img src="{{ asset('assets/img/logosuperchambitas0.png') }}"
                                                             alt="phoenix" width="27"/>
                     <p class="logo-text ms-2">SC</p>
@@ -112,11 +112,11 @@
                             class="nav-link active lh-1 py-0 fs--1 fw-bold py-3 active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item border-bottom border-bottom-lg-0"><a
-                            class="nav-link lh-1 py-0 fs--1 fw-bold py-3" href="#feature">Lo Nuevo</a></li>
+                            class="nav-link lh-1 py-0 fs--1 fw-bold py-3" href="#feature">Conócenos</a></li>
                     <li class="nav-item border-bottom border-bottom-lg-0"><a
-                            class="nav-link lh-1 py-0 fs--1 fw-bold py-3" href="#blog">Reseñas</a></li>
+                            class="nav-link lh-1 py-0 fs--1 fw-bold py-3" href="#blog">Solución Integral</a></li>
                     <li class="nav-item"><a class="nav-link lh-1 py-0 fs--1 fw-bold py-3"
-                                            href="#team">Patrocinadores</a></li>
+                                            href="#team">Equipo</a></li>
                 </ul>
                 <div class="d-grid d-lg-flex align-items-center">
                     <div class="nav-item d-flex align-items-center d-none d-lg-block pe-2">
@@ -342,7 +342,7 @@
             <div class="container-small px-lg-7 px-xxl-3">
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-6 pt-8 pb-6 position-relative z-index-5 text-center text-lg-start">
-                        <h1 class="fs-5 fs-md-6 fs-xl-7 fw-black mb-4"><span class="text-gradient-info me-3">SuperChambitas</span><br/>tu
+                        <h1 class="fs-5 fs-md-6 fs-xl-7 fw-black mb-4"><span class="text-gradient-info me-3">Super<br class="d-sm-none"/>Chambitas</span><br/>tu
                             app local</h1>
                         <p class="mb-5 pe-xl-10">La nueva forma de buscar y tener una chamba, en simplemente unos
                             toques.</p><a class="btn btn-lg btn-primary rounded-pill me-3" href="#!" role="button">Trabajador?</a><a
@@ -355,11 +355,11 @@
                                 <div class="position-absolute end-0 hero-image-container-overlay"
                                      style="transform: skewY(-8deg)."></div>
                                 <img class="position-absolute end-0 hero-image-container-bg"
-                                     src="../../assets/img/bg/bg-36.png" alt=""/><img
+                                     src="../../assets/img/bg/bg-39.png" alt=""/><img
                                     class="w-100 d-dark-none rounded-2 hero-image-shadow"
-                                    src="../../assets/img/bg/bg-34.png" alt="hero-header"/><img
+                                    src="https://imgs.search.brave.com/rAGR4H9mxUGYpxoFF-pHRlu_RsjKHoV9wzaobTbO5co/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb25kby1uYXZp/ZGFkXzE4MjAyOS0x/OTk1LmpwZz9zaXpl/PTYyNiZleHQ9anBn" alt="hero-header"/><img
                                     class="w-100 d-light-none rounded-2 hero-image-shadow"
-                                    src="../../assets/img/bg/bg-35.png" alt="hero-header"/>
+                                    src="https://imgs.search.brave.com/rAGR4H9mxUGYpxoFF-pHRlu_RsjKHoV9wzaobTbO5co/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb25kby1uYXZp/ZGFkXzE4MjAyOS0x/OTk1LmpwZz9zaXpl/PTYyNiZleHQ9anBn" alt="hero-header"/>
                             </div>
                         </div>
                     </div>
@@ -370,9 +370,9 @@
                     <div class="position-absolute end-0 hero-image-container-overlay"></div>
                     <img class="position-absolute top-50 hero-image-container-bg" src="../../assets/img/bg/bg-39.png"
                          alt=""/><img class="img-fluid ms-auto d-dark-none rounded-2 hero-image-shadow"
-                                      src="../../assets/img/bg/bg-34.png" alt="hero-header"/><img
+                                      src="https://imgs.search.brave.com/rAGR4H9mxUGYpxoFF-pHRlu_RsjKHoV9wzaobTbO5co/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb25kby1uYXZp/ZGFkXzE4MjAyOS0x/OTk1LmpwZz9zaXpl/PTYyNiZleHQ9anBn" alt="hero-header"/><img
                         class="img-fluid ms-auto d-light-none rounded-2 hero-image-shadow"
-                        src="../../assets/img/bg/bg-35.png" alt="hero-header"/>
+                        src="https://imgs.search.brave.com/rAGR4H9mxUGYpxoFF-pHRlu_RsjKHoV9wzaobTbO5co/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb25kby1uYXZp/ZGFkXzE4MjAyOS0x/OTk1LmpwZz9zaXpl/PTYyNiZleHQ9anBn" alt="hero-header"/>
                 </div>
             </div>
         </div>
@@ -382,7 +382,9 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section>
-
+        <div class="text-center mb-5 position-relative">
+            <h2 class="mb-2 lh-base">No sería posible sin USTEDES, gracias!</h2>
+        </div>
         <div class="container-small px-lg-7 px-xxl-3">
             <div class="row g-0">
                 <div class="col-6 col-md-3">
@@ -436,19 +438,17 @@
 
         <div class="container-small px-lg-7 px-xxl-3">
             <div class="text-center mb-10 mb-md-5">
-                <h5 class="text-info mb-3">Features</h5>
-                <h2 class="mb-3 lh-base">Complete suite of <br class="d-sm-none"/>payment products.</h2>
-                <p class="mb-0">Focus only on functionalities for your digital products with Phoenix! Leave the UIs for
-                    us.</p>
-                <div class="text-center mt-5"><a class="btn btn-outline-primary" href="#!">See more<span
+                <h5 class="text-info mb-3">Conócenos</h5>
+                <h2 class="mb-3 lh-base">Acercate y conocenos, <br class="d-sm-none"/> ademas, ya puedes descargar nuestra app.</h2>
+                <p class="mb-0">Todo cerca, con SuperChambitas</p>
+                <div class="text-center mt-5"><a class="btn btn-outline-primary" href="#!">Descargar<span
                             class="fa-solid fa-angle-right ms-2"></span></a></div>
             </div>
             <div class="row flex-between-center px-xl-11 mb-10 mb-md-9">
                 <div class="col-md-6 order-1 order-md-0 text-center text-md-start">
-                    <h4 class="mb-3">Recieve the signals instantly</h4>
-                    <p class="mb-5">Phoenix allows you to receive every signal instantly and fruitfully. No need for
-                        long waits.</p><a class="btn btn-link me-2 p-0 fs--1" href="#!" role="button">Check Demo<i
-                            class="fa-solid fa-angle-right ms-2"></i></a>
+                    <h4 class="mb-3">Misión</h4>
+                    <p class="mb-5">Facilitar la conexión eficiente entre la demanda local de habilidades especializadas y aquellos dispuestos a ofrecer sus servicios, transformando las pequeñas necesidades cotidianas en oportunidades de crecimiento económico local. En Superchambitas, nos comprometemos a simplificar el proceso y fomentar relaciones de trabajo duraderas basadas en la confianza y la eficiencia.</p>
+
                 </div>
                 <div class="col-md-5 mb-5 mb-md-0 text-center"><img class="w-75 w-md-100 d-dark-none"
                                                                     src="../../assets/img/spot-illustrations/34.png"
@@ -458,10 +458,10 @@
             </div>
             <div class="row flex-between-center px-xl-11 mb-10 mb-md-9">
                 <div class="col-md-6 order-1 order-md-0 text-center text-md-start">
-                    <h4 class="mb-3">Make everyday a joyride</h4>
-                    <p class="mb-5">Phoenix helps you show reports and data in one place and make the journey a glee
-                        trip for everyone.</p><a class="btn btn-link me-2 p-0 fs--1" href="#!" role="button">Check
-                        Demo<i class="fa-solid fa-angle-right ms-2"></i></a>
+                    <h4 class="mb-3">Visión</h4>
+                    <p class="mb-5">
+                        Convertir a Superchambitas en la plataforma líder que redefine la forma en que las comunidades abordan las tareas cotidianas, creando un tejido colaborativo sólido y contribuyendo significativamente al desarrollo económico local. Aspiramos a ser reconocidos por nuestra innovación, profesionalismo y la creación de impacto positivo en la vida de las personas.
+                    </p>
                 </div>
                 <div class="col-md-5 mb-5 mb-md-0 text-center"><img class="w-75 w-md-100 d-dark-none"
                                                                     src="../../assets/img/spot-illustrations/35.png"
@@ -471,10 +471,21 @@
             </div>
             <div class="row flex-between-center px-xl-11 false">
                 <div class="col-md-6 order-1 order-md-0 text-center text-md-start">
-                    <h4 class="mb-3">See Your Revenue Grow</h4>
-                    <p class="mb-5">Grow with Phoenix. We help you with everything you might need, We make it easy and
-                        keep it simple.</p><a class="btn btn-link me-2 p-0 fs--1" href="#!" role="button">Check Demo<i
-                            class="fa-solid fa-angle-right ms-2"></i></a>
+                    <h4 class="mb-3">Valores</h4>
+                    <p class="mb-5">
+
+                        <strong>Profesionalismo:</strong> Mantenemos altos estándares de calidad y conducta en todas las interacciones.
+                        <br>
+                        <strong>Eficiencia:</strong> Buscamos la eficiencia en cada paso, ahorrando tiempo y recursos.
+                        <br>
+                        <strong>Confianza:</strong> Construimos relaciones basadas en la transparencia y la honestidad.
+                        <br>
+                        <strong>Colaboración:</strong> Fomentamos la colaboración, creando oportunidades para todos.
+                        <br>
+                        <strong>Innovación:</strong> Abrazamos la innovación constante para mejorar la experiencia del usuario.
+                        <br>
+                        <strong>Impacto local:</strong> Contribuimos al desarrollo sostenible de las comunidades que servimos.
+                    </p>
                 </div>
                 <div class="col-md-5 mb-5 mb-md-0 text-center"><img class="w-75 w-md-100 d-dark-none"
                                                                     src="../../assets/img/spot-illustrations/36.png"
@@ -492,211 +503,44 @@
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-    <section class="pb-14 overflow-x-hidden">
-
-        <div class="container-small px-lg-7 px-xxl-3">
-            <div class="text-center mb-5 position-relative">
-                <h5 class="text-info mb-3">Testimonial</h5>
-                <h2 class="mb-2 lh-base">What our customers has to say about us</h2>
-            </div>
-            <div class="carousel testimonial-carousel slide position-relative dark__bg-1100"
-                 id="carouselExampleIndicators" data-bs-ride="carousel">
-                <div class="bg-holder d-none d-md-block"
-                     style="background-image:url(../../assets/img/bg/39.png);background-size:186px;background-position:top 20px right 20px;">
-                </div>
-                <!--/.bg-holder-->
-                <img class="position-absolute d-none d-lg-block" src="../../assets/img/bg/bg-left-22.png" width="150"
-                     alt="" style="top: -100px; left: -70px"/><img class="position-absolute d-none d-lg-block"
-                                                                   src="../../assets/img/bg/bg-right-22.png" width="150"
-                                                                   alt="" style="bottom: -80px; right: -80px"/>
-                <div class="carousel-inner">
-                    <div class="carousel-item text-center py-8 px-5 px-xl-15 active"><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa fa-star text-warning"></span>
-                        <h3 class="fw-semi-bold fst-italic mt-3 mb-8 w-xl-70 mx-auto lh-base">Amazing theme, excellent
-                            support from ThemeWagon with really fast reaction time! Thank you!</h3>
-                        <div class="d-flex align-items-center justify-content-center gap-3 mx-auto">
-                            <div class="avatar avatar-3xl ">
-                                <img class="rounded-circle border border-2 border-primary"
-                                     src="../../assets/img/team/12.webp" alt=""/>
-
-                            </div>
-                            <div class="text-start">
-                                <h5>Johna Austin</h5>
-                                <p class="mb-0">CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item text-center py-8 px-5 px-xl-15 false"><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa fa-star-half-alt star-icon text-warning"></span>
-                        <h3 class="fw-semi-bold fst-italic mt-3 mb-8 w-xl-70 mx-auto lh-base">An excellent theme with
-                            fast support team to aid the development process! Thanks team Phoenix!</h3>
-                        <div class="d-flex align-items-center justify-content-center gap-3 mx-auto">
-                            <div class="avatar avatar-3xl ">
-                                <img class="rounded-circle border border-2 border-primary"
-                                     src="../../assets/img/team/13.webp" alt=""/>
-
-                            </div>
-                            <div class="text-start">
-                                <h5>Monica Gomez</h5>
-                                <p class="mb-0">Founder</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item text-center py-8 px-5 px-xl-15 false"><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa fa-star text-warning"></span><span class="fa fa-star text-warning"></span><span
-                            class="fa-regular fa-star text-warning-300"></span>
-                        <h3 class="fw-semi-bold fst-italic mt-3 mb-8 w-xl-70 mx-auto lh-base">Amazing support system
-                            with quickest reply and steady communication of the concerned. Really loved working with
-                            Phoenix!</h3>
-                        <div class="d-flex align-items-center justify-content-center gap-3 mx-auto">
-                            <div class="avatar avatar-3xl ">
-                                <img class="rounded-circle border border-2 border-primary"
-                                     src="../../assets/img/team/14.webp" alt=""/>
-
-                            </div>
-                            <div class="text-start">
-                                <h5>Marc Chiasson</h5>
-                                <p class="mb-0">CTO</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-indicators">
-                    <button class="active" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                </div>
-            </div>
-        </div>
-        <!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-    <section class="gallery">
-        <div class="position-absolute left-0 w-100 gallery-overlay"></div>
-        <div class="bg-holder d-none d-xl-block"
-             style="background-image:url(../../assets/img/bg/bg-left-26.png);background-size:auto;background-position:left 65%;">
-        </div>
-        <!--/.bg-holder-->
-
-        <div class="bg-holder d-none d-xl-block"
-             style="background-image:url(../../assets/img/bg/bg-right-26.png);background-size:auto;background-position:right 62%;">
-        </div>
-        <!--/.bg-holder-->
-
-        <div class="container-small position-relative px-lg-7 px-xxl-3">
-            <div class="text-center mb-7">
-                <h5 class="text-info mb-3">Gallery</h5>
-                <h2 class="mb-2">Our best works</h2>
-            </div>
-            <ul class="nav font-sans-serif mb-6 w-max-content mx-auto" data-filter-nav="data-filter-nav">
-                <li class="nav-item"><a class="isotope-nav cursor-pointer active" data-filter="*">First</a></li>
-                <li class="nav-item"><a class="isotope-nav cursor-pointer" data-filter=".second">Second</a></li>
-                <li class="nav-item"><a class="isotope-nav cursor-pointer" data-filter=".third">Third</a></li>
-                <li class="nav-item"><a class="isotope-nav cursor-pointer" data-filter=".fourth">Fourth</a></li>
-            </ul>
-            <div class="row g-3" id="image_gallery" data-sl-isotope='{"layoutMode":"packery"}'>
-                <div class="col-6 col-md-4 px-2 isotope-item fourth"><a href="#!"
-                                                                        data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                        data-bp="../../assets/img/gallery/27.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/27.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item third"><a href="#!"
-                                                                       data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                       data-bp="../../assets/img/gallery/28.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/28.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item second"><a href="#!"
-                                                                        data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                        data-bp="../../assets/img/gallery/29.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/29.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item third"><a href="#!"
-                                                                       data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                       data-bp="../../assets/img/gallery/30.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/30.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item third"><a href="#!"
-                                                                       data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                       data-bp="../../assets/img/gallery/31.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/31.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item second"><a href="#!"
-                                                                        data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                        data-bp="../../assets/img/gallery/32.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/32.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item fourth"><a href="#!"
-                                                                        data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                        data-bp="../../assets/img/gallery/33.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/33.png" alt=""/></a>
-                </div>
-                <div class="col-6 col-md-4 px-2 isotope-item third"><a href="#!"
-                                                                       data-bigpicture='{"gallery":"#image_gallery"}'
-                                                                       data-bp="../../assets/img/gallery/34.png"><img
-                            class="rounded img-fluid w-100" src="../../assets/img/gallery/34.png" alt=""/></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="overflow-hidden rotating-earth-container pb-5 pb-md-0 pt-12">
+    <section class="overflow-hidden rotating-earth-container pb-5 pb-md-0 pt-12" id="blog">
 
         <div class="container-small px-lg-7 px-xxl-3">
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h5 class="text-info mb-3">One-stop solution</h5>
-                    <h2 class="mb-2 lh-base">Used by millions of users</h2>
-                    <h1 class="fs-4 fs-sm-6 mb-3 text-gradient-info fw-black">WORLDWIDE</h1>
-                    <p class="mb-10">Keep it simple with Phoenix and help your organization grow with the abundance you
-                        look for.</p>
+                    <h5 class="text-info mb-3">Solución integral</h5>
+                    <h2 class="mb-2 lh-base">Usado por millones de usuari@s </h2>
+                    <h1 class="fs-4 fs-sm-6 mb-3 text-gradient-info fw-black">EN TODO EL MUNDO</h1>
+
                     <div class="row gy-6">
-                        <div class="col-sm-6 text-center text-lg-start"><img class="mb-4 d-dark-none"
-                                                                             src="../../assets/img/icons/lightning-speed.png"
-                                                                             alt=""/><img class="mb-4 d-light-none"
-                                                                                          src="../../assets/img/icons/lightning-speed-dark.png"
-                                                                                          alt=""/>
-                            <h4 class="mb-2">Lightning Speed</h4>
-                            <p>Grow fast with Phoenix!</p>
+                        <div class="col-sm-6 text-center text-lg-start">
+                            <img class="mb-4 d-dark-none" src="../../assets/img/icons/lightning-speed.png" alt=""/>
+                            <img class="mb-4 d-light-none" src="../../assets/img/icons/lightning-speed-dark.png" alt=""/>
+                            <h4 class="mb-2">Velocidad Relámpago</h4>
+                            <p>Crece rápidamente con Superchambitas.</p>
                         </div>
-                        <div class="col-sm-6 text-center text-lg-start"><img class="mb-4 d-dark-none"
-                                                                             src="../../assets/img/icons/best-statistics.png"
-                                                                             alt=""/><img class="mb-4 d-light-none"
-                                                                                          src="../../assets/img/icons/best-statistics-dark.png"
-                                                                                          alt=""/>
-                            <h4 class="mb-2">Best Statistics</h4>
-                            <p>Get all reports at hand!</p>
+
+                        <div class="col-sm-6 text-center text-lg-start">
+                            <img class="mb-4 d-dark-none" src="../../assets/img/icons/best-statistics.png" alt=""/>
+                            <img class="mb-4 d-light-none" src="../../assets/img/icons/best-statistics-dark.png" alt=""/>
+                            <h4 class="mb-2">Mejores Estadísticas</h4>
+                            <p>¡Obtén todos los informes al alcance de la mano con Superchambitas!</p>
                         </div>
-                        <div class="col-sm-6 text-center text-lg-start"><img class="mb-4 d-dark-none"
-                                                                             src="../../assets/img/icons/all-night.png"
-                                                                             alt=""/><img class="mb-4 d-light-none"
-                                                                                          src="../../assets/img/icons/all-night-dark.png"
-                                                                                          alt=""/>
-                            <h4 class="mb-2">All-night Protection</h4>
-                            <p>Security Assured: Ensure data Safety with Phoenix!</p>
+
+                        <div class="col-sm-6 text-center text-lg-start">
+                            <img class="mb-4 d-dark-none" src="../../assets/img/icons/all-night.png" alt=""/>
+                            <img class="mb-4 d-light-none" src="../../assets/img/icons/all-night-dark.png" alt=""/>
+                            <h4 class="mb-2">Protección 24/7</h4>
+                            <p>Seguridad garantizada: ¡Asegura la integridad de tus datos con Superchambitas!</p>
                         </div>
-                        <div class="col-sm-6 text-center text-lg-start"><img class="mb-4 d-dark-none"
-                                                                             src="../../assets/img/icons/editable-features.png"
-                                                                             alt=""/><img class="mb-4 d-light-none"
-                                                                                          src="../../assets/img/icons/editable-features-dark.png"
-                                                                                          alt=""/>
-                            <h4 class="mb-2">Editable Features</h4>
-                            <p>Edits made easy and safe!</p>
+
+                        <div class="col-sm-6 text-center text-lg-start">
+                            <img class="mb-4 d-dark-none" src="../../assets/img/icons/editable-features.png" alt=""/>
+                            <img class="mb-4 d-light-none" src="../../assets/img/icons/editable-features-dark.png" alt=""/>
+                            <h4 class="mb-2">Características Editables</h4>
+                            <p>Ediciones sencillas y seguras con Superchambitas.</p>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-lg-auto">
@@ -736,15 +580,26 @@
             <div class="row gx-0 gy-8 justify-content-center">
                 <div
                     class="col-sm-6 col-md-auto me-md-5 pe-md-5 border-end-md border-dashed text-center order-2 order-md-0">
-                    <h1 class="fs-5 fs-lg-7 fw-bolder text-info mb-3"><span>$</span><span
-                            data-countup='{"endValue":8976,"duration":5,"suffix":""}'></span></h1>
-                    <h4>Revenue</h4>
+                    <h1 class="fs-5 fs-lg-7 fw-bolder text-info mb-3"><span
+                            data-countup='{"endValue":
+                            @isset($cantidadCategorias)
+                            {{ $cantidadCategorias }}
+                        @else
+                            Cantidad de Categorías no disponible
+                        @endisset,
+                        "duration":5,"suffix":""}'></span></h1>
+                    <h4>Categorias</h4>
                 </div>
                 <div
                     class="col-sm-6 col-md-auto me-md-5 pe-md-5 border-end-md border-dashed text-center order-1 order-md-0">
                     <h1 class="fs-5 fs-lg-7 fw-bolder text-info mb-3"><span
-                            data-countup='{"endValue":308,"duration":10,"suffix":""}'></span><span>K</span></h1>
-                    <h4>User</h4>
+                            data-countup='{"endValue":
+                            @isset($cantidadUsuarios)
+                            {{ $cantidadUsuarios }}
+                        @else
+                            Cantidad de Usuarios no disponible
+                        @endisset,"duration":10,"suffix":""}'></span></h1>
+                    <h4>Usuarios</h4>
                 </div>
                 <div class="col-sm-6 col-md-auto me-md-5 pe-md-5 border-end-md border-dashed text-center">
                     <h1 class="fs-5 fs-lg-7 fw-bolder text-info mb-3"
@@ -763,211 +618,7 @@
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-    <section class="position-static pt-15 pt-md-5 pt-lg-2">
-
-        <div class="container-small px-lg-7 px-xxl-3">
-            <div class="text-center mb-3 mb-lg-7">
-                <h5 class="text-info mb-3">Pricing</h5>
-                <h2 class="mb-2">Choose the best deal for you</h2>
-            </div>
-            <div class="row g-3 mb-7 mb-lg-11">
-                <div class="col-lg-4">
-                    <div class="pricing-card">
-                        <div class="card bg-transparent border-0">
-                            <div class="card-body p-7">
-                                <h3 class="mb-5">Starter</h3>
-                                <h1 class="fs-5 d-flex align-items-center gap-1 mb-3">$15<span class="fs-0 fw-normal">/ month</span>
-                                </h1>
-                                <button class="btn btn-lg w-100 mb-7 btn-outline-primary">Buy</button>
-                                <h5 class="mb-4">What’s included</h5>
-                                <ul class="fa-ul ps-4 m-0 pricing">
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Timeline</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Advanced Search</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Custom fields</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Task dependencies</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-0"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Private teams &amp; projects</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="pricing-card">
-                        <div class="card bg-transparent border border-2 border-info rounded-4">
-                            <div class="card-body p-7">
-                                <h3 class="mb-5">Business</h3>
-                                <h1 class="fs-5 d-flex align-items-center gap-1 mb-3">$23<span class="fs-0 fw-normal">/ month</span>
-                                </h1>
-                                <button class="btn btn-lg w-100 mb-7 btn-primary">Buy</button>
-                                <h5 class="mb-4">What’s included</h5>
-                                <ul class="fa-ul ps-4 m-0 pricing">
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Timeline</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Advanced Search</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Custom fields</p><span
-                                            class="badge badge-phoenix badge-phoenix-info ms-2 fs--2">Info</span>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Task dependencies</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-0"><span class="fa-li"><span></span></span>
-                                        <p class="mb-0">Private teams &amp; projects</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="pricing-card">
-                        <div class="card bg-transparent border-0">
-                            <div class="card-body p-7">
-                                <h3 class="mb-5">Enterprise</h3>
-                                <h1 class="fs-5 d-flex align-items-center gap-1 mb-3">$40<span class="fs-0 fw-normal">/ month</span>
-                                </h1>
-                                <button class="btn btn-lg w-100 mb-7 btn-outline-primary">Buy</button>
-                                <h5 class="mb-4">What’s included</h5>
-                                <ul class="fa-ul ps-4 m-0 pricing">
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Timeline</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Advanced Search</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Custom fields</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-3"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Task dependencies</p>
-                                    </li>
-                                    <li class="d-flex align-items-center mb-0"><span class="fa-li"><span
-                                                class="fas fa-check text-primary"></span></span>
-                                        <p class="mb-0">Private teams &amp; projects</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card rounded-4 border-0 offer-card">
-                <div class="card-body d-md-flex align-items-center gap-4 py-5"><img class="mb-4 mb-md-0 d-dark-none"
-                                                                                    src="../../assets/img/spot-illustrations/air-plane.png"
-                                                                                    width="155" alt=""/><img
-                        class="mb-4 mb-md-0 d-light-none" src="../../assets/img/spot-illustrations/air-plane-dark.png"
-                        width="155" alt=""/>
-                    <div>
-                        <p>Business Starter, Business Standard, and Business Plus plans can be purchased for a maximum
-                            of 300 users. There is no minimum or maximum user limit for Enterprise plans.</p>
-                        <p class="mb-6">Phoenix customers may have access to additional features for a limited
-                            promotional period</p><a class="btn btn-link me-2 p-0 fs--1" href="#!" role="button">Contact
-                            Support<i class="fa-solid fa-angle-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="pt-10" id="blog">
-
-        <div class="container-small px-lg-7 px-xxl-3">
-            <div class="text-center mb-5 mb-8">
-                <h5 class="text-info mb-3">Blogs</h5>
-                <h2 class="mb-2">Our most viewed articles</h2>
-            </div>
-            <div class="row gx-3 gy-7">
-                <div class="col-lg-4">
-                    <div class="blog-card"><img class="w-100 rounded-3" src="../../assets/img/blog/blog-5.png" alt=""/>
-                        <div class="d-flex align-items-cente mt-3"><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-eye fs--1"></span><span class="fs--2 ms-1 lh-1">2563</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-heart fs--1"></span><span
-                                    class="ms-1 fs--2 lh-1">125</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center" href="#!"><span
-                                    class="fa-solid fa-comment fs--1"></span><span
-                                    class="ms-1 fs--2 lh-1">125</span></a></div>
-                        <span class="badge bg-primary mb-2 mt-4">SEO</span>
-                        <h4 class="mb-3 pe-sm-5 lh-lg">Top 10 ways to Ace SEO for your business</h4><a
-                            class="btn-link px-0 d-flex align-items-center fs--1 fw-bold" href="#!" role="button">See
-                            more<span class="fa-solid fa-angle-right ms-2"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-card"><img class="w-100 rounded-3" src="../../assets/img/blog/blog-6.png" alt=""/>
-                        <div class="d-flex align-items-cente mt-3"><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-eye fs--1"></span><span class="fs--2 ms-1 lh-1">1256</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-heart fs--1"></span><span
-                                    class="ms-1 fs--2 lh-1">325</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center" href="#!"><span
-                                    class="fa-solid fa-comment fs--1"></span><span class="ms-1 fs--2 lh-1">32</span></a>
-                        </div>
-                        <span class="badge bg-primary mb-2 mt-4">Marketing</span>
-                        <h4 class="mb-3 pe-sm-5 lh-lg">Top 12 Marketing strategies you can take</h4><a
-                            class="btn-link px-0 d-flex align-items-center fs--1 fw-bold" href="#!" role="button">See
-                            more<span class="fa-solid fa-angle-right ms-2"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-card"><img class="w-100 rounded-3" src="../../assets/img/blog/blog-7.png" alt=""/>
-                        <div class="d-flex align-items-cente mt-3"><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-eye fs--1"></span><span class="fs--2 ms-1 lh-1">142</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center me-3" href="#!"><span
-                                    class="fa-solid fa-heart fs--1"></span><span
-                                    class="ms-1 fs--2 lh-1">123</span></a><a
-                                class="btn-link text-decoration-none text-800 d-flex align-items-center" href="#!"><span
-                                    class="fa-solid fa-comment fs--1"></span><span class="ms-1 fs--2 lh-1">22</span></a>
-                        </div>
-                        <span class="badge bg-primary mb-2 mt-4">Marketing</span>
-                        <h4 class="mb-3 pe-sm-5 lh-lg">The top 7 methods to improve as a marketer</h4><a
-                            class="btn-link px-0 d-flex align-items-center fs--1 fw-bold" href="#!" role="button">See
-                            more<span class="fa-solid fa-angle-right ms-2"></span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end of .container-->
-
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <section class="pb-10 pb-xl-14">
+    <section class="pb-10 pb-xl-14" style="display: none">
 
         <div class="container-small px-lg-7 px-xxl-3">
             <div class="text-center mb-7">
@@ -1062,8 +713,8 @@
         <!--/.bg-holder-->
 
         <div class="text-center mb-11 position-relative">
-            <h5 class="text-info mb-3">Team</h5>
-            <h2 class="mb-2">Our small team behind <br class="d-sm-none"/>our success</h2>
+            <h5 class="text-info mb-3">Equipo</h5>
+            <h2 class="mb-2">Nuestro pequeño equipo detrás de <br class="d-sm-none"/>nuestro éxito</h2>
         </div>
         <div class="container-small position-relative">
             <div class="row justify-content-center">
@@ -1071,65 +722,30 @@
                     <div class="row gx-3 gy-6 justify-content-center">
                         <div class="col-sm-6 col-md-4">
                             <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/70.webp" alt=""/>
-                                <h4>Brett Bezos</h4>
+                                                          src="../../assets/img/team/avatar.webp" alt=""/>
+                                <h4>Fernando Tziu</h4>
                                 <h5 class="fw-semi-bold">CEO</h5>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/15.webp" alt=""/>
-                                <h4>Lucas Murray</h4>
+                                                          src="../../assets/img/team/avatar.webp" alt=""/>
+                                <h4>Kenet Avila</h4>
                                 <h5 class="fw-semi-bold">General Manager</h5>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/71.webp" alt=""/>
-                                <h4>Casey Andrews</h4>
+                                                          src="../../assets/img/team/avatar.webp" alt=""/>
+                                <h4>Luis Macias</h4>
                                 <h5 class="fw-semi-bold">IT Specialist</h5>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/72.webp" alt=""/>
-                                <h4>Poppy Russell</h4>
-                                <h5 class="fw-semi-bold">Frontend Dev</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/73.webp" alt=""/>
-                                <h4>Emma Knowles</h4>
-                                <h5 class="fw-semi-bold">Backend Dev</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/74.webp" alt=""/>
-                                <h4>Megan Holmes</h4>
-                                <h5 class="fw-semi-bold">HR</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/75.webp" alt=""/>
-                                <h4>Cameron Fletcher</h4>
+                                                          src="../../assets/img/team/avatar.webp" alt=""/>
+                                <h4>Angel Casanova</h4>
                                 <h5 class="fw-semi-bold">UX/UI Designer</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/20.webp" alt=""/>
-                                <h4>Amber Norris</h4>
-                                <h5 class="fw-semi-bold">Consultant</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="text-center"><img class="w-70 w-sm-100 rounded-4 mb-3"
-                                                          src="../../assets/img/team/76.webp" alt=""/>
-                                <h4>Scooby</h4>
-                                <h5 class="fw-semi-bold">Dog</h5>
                             </div>
                         </div>
                     </div>
@@ -1156,33 +772,6 @@
             </div>
             <!--/.bg-holder-->
 
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <div class="card py-md-9 px-md-13 border-0 z-index-1 shadow-lg">
-                        <div class="bg-holder"
-                             style="background-image:url(../../assets/img/bg/bg-38.png);background-position:center;background-size:100%;">
-                        </div>
-                        <!--/.bg-holder-->
-
-                        <div class="card-body position-relative"><img class="img-fluid mb-5 d-dark-none"
-                                                                      src="../../assets/img/spot-illustrations/37.png"
-                                                                      width="260" alt="..."/><img
-                                class="img-fluid mb-5 d-light-none" src="../../assets/img/spot-illustrations/37_2.png"
-                                width="260" alt="..."/>
-                            <p class="fw-bold">2008 Premium Icons <span class="text-primary fs-2">.</span> Included FREE
-                                with it</p>
-                            <h1 class="fs-2 fs-sm-4 fs-lg-6 fw-bolder lh-sm mb-3">Join<span
-                                    class="gradient-text-primary mx-2">Phoenix</span><span>Today</span></h1>
-                            <form class="d-flex justify-content-center mb-3 px-xxl-15">
-                                <div class="d-grid d-sm-block"></div>
-                                <input class="form-control me-3" id="ctaEmail1" type="email" placeholder="Email"
-                                       aria-describedby="ctaEmail1"/>
-                                <button class="btn btn-primary" type="submit">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <!-- end of .container-->
 
@@ -1201,13 +790,7 @@
                                                                       height="48" alt=""/></a></div>
                 <div class="col-xl-auto flex-1">
                     <ul class="list-unstyled d-flex justify-content-center flex-wrap mb-0 border-end-xl border-dashed border-800 gap-3 gap-xl-8 pe-xl-5 pe-xxl-8 w-75 w-md-100 mx-auto">
-                        <li><a class="text-300 dark__text-300" href="">Contact us</a></li>
-                        <li><a class="text-300 dark__text-300" href="">Newsroom</a></li>
-                        <li><a class="text-300 dark__text-300" href="">Opportunities</a></li>
-                        <li><a class="text-300 dark__text-300" href="">Login</a></li>
-                        <li><a class="text-300 dark__text-300" href="">Sign Up</a></li>
-                        <li><a class="text-300 dark__text-300" href="">Support</a></li>
-                        <li><a class="text-300 dark__text-300" href="">FAQ</a></li>
+
                     </ul>
                 </div>
                 <div class="col-xl-auto">
